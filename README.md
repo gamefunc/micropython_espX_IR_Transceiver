@@ -7,7 +7,7 @@ micropython esp8266  IR Transceiver
       from irGetCMD import *
       a = irGetCMD(25) # 25 is GPIO PIN number
 
-  # get log code list 0 . 
+  # get log code line -> json.loads -> get the list . 
       from irSelectCMD import *
       irCMDList = irSelectCMD(0) 
 
