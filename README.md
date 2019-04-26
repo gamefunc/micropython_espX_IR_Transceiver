@@ -3,11 +3,11 @@ micropython esp32 esp8266  IR Transceiver
 
 
 # how to use:
-  # logIrCMD(time list) -> auto save to /buttomCMD.txt:
+  # logIrCMD(time list) -> auto save to /buttomCMD.txt, i am use VS/HX1838B:
       from irGetCMD import *
       a = irGetCMD(25) # 25 is GPIO PIN number
 
-  # get irRawCodeListObject
+  # get log code list 0 . 
       from irSelectCMD import *
       irCMDList = irSelectCMD(0) 
 
