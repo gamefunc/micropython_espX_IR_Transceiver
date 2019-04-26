@@ -2,7 +2,7 @@
 micropython esp32 esp8266  IR Transceiver
 
 
-how to use:
+# how to use:
   # logIrCMD(time list) -> auto save to /buttomCMD.txt:
       from irGetCMD import *
       a = irGetCMD(25) # 25 is GPIO PIN number
