@@ -1,5 +1,5 @@
 # micropython_espX_IR_Transceiver
-micropython esp32 esp8266  IR Transceiver
+micropython esp8266  IR Transceiver
 
 
 # how to use:
