@@ -1,6 +1,8 @@
 # micropython_espX_IR_Transceiver
 micropython esp32  IR Transceiver
 
+micropython 基础入门 课件: https://edu.csdn.net/course/detail/25660
+
 
 # how to use:
   # logIRCMD(time list) -> auto save to /buttomCMD.txt, i am use VS/HX1838B:
